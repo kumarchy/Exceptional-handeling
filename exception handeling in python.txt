@@ -1,0 +1,126 @@
+while(True):
+#     print("press q to quit")
+#     a=input("enter a number :")
+#     if a=='q':
+#         break
+#     try:
+#         print("trying...")
+#         a=int(a)
+#         if a>6:
+#             print("you entered a number greater than 6")
+#     except Exception as e :
+#         print(f"your input resulted in  an error :{e}")
+#         print("thanks for playing this game..")
+        
+
+    
+###NEXT###
+# try:
+#     a=int(input("enter a number"))
+#     c=1/a
+#     print(c)
+# except Exception as e:
+#     print("Exception occurred")
+#     print(e)
+# print("thanks for using this code..")
+
+
+###NEXT###
+# try:
+#     a=int(input("enter a number"))
+#     c=1/a
+#     print(c)
+# except ValueError as e:
+#     print("please enter a valid value")
+# except ZeroDivisionError as e:
+#     print("make sure you are not dividing by 0")
+# print("thanks for using this code..")
+
+
+# ### NEXT###
+# def increment(num):
+#     try:
+#         return int(num) +1
+#     except:
+#         raise ValueError ("This is not good _kumar")
+# a=increment('adff')
+# print(a)
+
+
+###NEXT###
+
+
+
+# try:
+#     i=int(input("enter a number"))
+#     c=1/i
+# except Exception as e:
+#     print(e)
+# else:
+#     print("we were successful...")
+
+
+
+###NEXT###
+
+
+# try:
+#     i=int(input("enter a number"))
+#     c=1/i
+# except Exception as e:
+#     print(e)
+#     exit()
+# finally :
+#     print("we are done")
+# print("we are trying to manage")
+
+
+
+###NEXT###
+
+
+# def greet(name):
+#     print(f"Good morning , {name}")
+
+# n=input("enter a name\n")
+# greet(n)
+
+
+# ###NEXT global variable###
+# a=54
+# def func1():
+#     global a
+#     print(f"print statement 1 :{a} ")
+#     a=8
+#     print(f"print statement 2 :{a} ")
+
+# func1()
+# print(f"print statement 3 :{a} ")
+    
+
+###NEXT enumerator###
+
+# from operator import index
+
+
+# list1=[3,53,2,False,6.2,"harry"]
+# # index=0
+# # for item in list1:
+# #     print(item,index)
+# #     index+=1
+
+# for index,item in enumerate(list1):
+#     print(item,index)
+
+###NEXT  LIST comphrension###
+
+# a=[3,5,6,101,50,21,125,300]
+# # b=[]
+# # for item in a:
+# #     if item%2==0:
+# #         b.append(item)
+# # print(b)
+
+
+# b=[i for i in a if i%2==0]
+# print(b)
